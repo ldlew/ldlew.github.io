@@ -1,0 +1,10 @@
+.cardWrap {
+    display: flex;
+    justify-content: flex-start;
+    gap: 2em;
+    padding: 2em;
+    margin: 2em;
+
+    max-width: 100%;
+    border-radius: 2em;
+}

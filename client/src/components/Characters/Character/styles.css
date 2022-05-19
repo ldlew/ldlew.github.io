@@ -1,0 +1,74 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    width: 15em;
+    padding: 1em;
+    background-color: grey;
+    border-radius: 2em;
+    line-height: 0;
+}
+.mediaWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.media {
+    height: 7em;
+    width: 7em;
+    border-radius: 50%;;
+    background-color: white;
+}
+.rowOne {
+    width: 100%;
+}
+.characterInformation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+.name {
+    flex: 1 1 100%;
+    text-align: center;
+}
+.infoWrap {
+    display: flex;
+    flex: 1 1 30%;
+    gap: 1em;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.statsWrap {
+    display: flex;
+    flex: 1 1 25%;
+    justify-content: space-between;    
+}
+.class h5, .group h5, .level h5{
+    flex: 1 1 100%;
+}
+.health, .armor, .speed, .hitDice {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 24%;
+}
+.dndWrap {
+    display: flex;
+    flex: 1 1 20%;
+    justify-content: space-between;    
+    text-align: center;
+}
+.dndWrap h3{
+    color: white;
+}
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}.buttons p {
+    width: 100%;
+}
